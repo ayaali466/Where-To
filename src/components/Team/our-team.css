@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&family=Yusei+Magic&display=swap");
+#team .header {
+  font-size: 3.4em;
+  color: var(--primary-color);
+  font-family: "Dosis", "sans-serif";
+}
+
+#team .about-team {
+  font-size: 1.5em;
+  font-family: "Sriracha", cursive;
+  color: var(--primary-lighter-color);
+}
+
+#team .teams {
+  margin-top: 4em;
+}
+#team .member {
+  margin: 2em auto;
+}
+.div-image {
+  width: 15em;
+  height: 15em;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+.div-image img {
+  height: 100%;
+}
+.name-div {
+  margin-top: 1.4em;
+  text-align: center;
+}
+.name {
+  font-size: 2em;
+  color: var(--primary-dark-color);
+  font-family: "Dosis";
+}
+.role-div {
+  margin-top: 0.4em;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #27a0a8;
+}
+
+#team .about-div {
+  margin-top: 0.4em;
+}
+#team .about-div p {
+  font-size: 1.4em;
+  color: var(--primary-light-color);
+  /* font-weight: bold; */
+  font-family: "Dosis", "sans-serif";
+}
+#team .icons {
+  margin-top: 1.3em;
+}
+
+#team .icons .Link .icon {
+  font-size: 1.7em;
+  margin: 0.5em;
+  color: #1f878f;
+  transition: all 0.4s;
+}
+#team .icons .Link .icon:hover {
+  color: var(--primary-color);
+}

@@ -1,0 +1,345 @@
+{
+  "clients": [
+    {
+      "_id": "1",
+      "name": "Alaa ElMenshaawy",
+      "email": "alaa@gmail.com",
+      "password": "12345abc",
+      "created_at": "20/12/2020",
+      "phone": "+201112112211",
+      "profile_image": "profile1",
+      "is_host": true
+    },
+    {
+      "_id": "2",
+      "name": "Aya Ali",
+      "email": "aya@gmail.com",
+      "password": "abcd1234",
+      "created_at": "20/12/2020",
+      "phone": "+201011111111",
+      "profile_image": "profile2",
+      "is_host": false
+    },
+    {
+      "_id": "3",
+      "name": "Esraa Khattab",
+      "email": "esraa@gmail.com",
+      "password": "0123456789",
+      "created_at": "20/12/2020",
+      "phone": "+20111111111",
+      "profile_image": "profile3",
+      "is_host": true
+    },
+    {
+      "_id": "4",
+      "name": "Moataz Gad",
+      "email": "@gmail.com",
+      "password": "0123abc45",
+      "created_at": "20/12/2020",
+      "phone": "+20112222222",
+      "profile_image": "profile4",
+      "is_host": false
+    },
+    {
+      "_id": "5",
+      "name": "Sondos Sami",
+      "email": "sondos.sami.abuzeid@gmail.com",
+      "password": "123456abc",
+      "created_at": "20/12/2020",
+      "phone": "+201112126068",
+      "profile_image": "profile5",
+      "is_host": true
+    }
+  ],
+
+  "places": [
+    {
+      "_id": "1",
+      "user_id": "3",
+      "name": "Cupcake ipsum",
+      "type": "Apartment",
+      "description": "Cupcake ipsum. Halvah dessert cupcake I love dessert.",
+      "total_rooms": 2,
+      "total_kitchens": 1,
+      "total_bathrooms": 2,
+      "total_beds": 4,
+      "price": 200,
+      "address": {
+        "country": "Egypt",
+        "city": "Giza",
+        "zipcode": 12552
+      },
+      "location": {
+        "lat": "30.013056",
+        "lng": "31.208853"
+      },
+      "pets": true,
+      "has_tv": true,
+      "has_wifi": true,
+      "has_heating_system": false,
+      "has_air_conditioner": true,
+      "max_guests": 4,
+      "images": ["place1-1", "place1-2", "place1-3"]
+    },
+    {
+      "_id": "2",
+      "user_id": "1",
+      "name": "Ice cream",
+      "type": "Room",
+      "description": "Cupcake ipsum. Ice cream lollipop chocolate bar tiramisu.",
+      "total_rooms": 1,
+      "total_kitchens": 0,
+      "total_bathrooms": 1,
+      "total_beds": 2,
+      "price": 100,
+      "address": {
+        "country": "Egypt",
+        "city": "Cairo",
+        "zipcode": 11221
+      },
+      "location": {
+        "lat": "30.033333",
+        "lng": "31.233334"
+      },
+      "pets": false,
+      "has_tv": true,
+      "has_wifi": false,
+      "has_heating_system": false,
+      "has_air_conditioner": false,
+      "max_guests": 2,
+      "images": ["place2-1", "place2-2", "place2-3"]
+    },
+    {
+      "_id": "3",
+      "user_id": "4",
+      "name": "Bonbon",
+      "type": "Apartment",
+      "description": "Cupcake ipsum. Bonbon ice cream icing caramels croissant.",
+      "total_rooms": 5,
+      "total_kitchens": 2,
+      "total_bathrooms": 3,
+      "total_beds": 10,
+      "price": 1000,
+      "address": {
+        "country": "Egypt",
+        "city": "Sheikh Zayed",
+        "zipcode": 11111
+      },
+      "location": {
+        "lat": "30.056021",
+        "lng": "30.976639"
+      },
+      "pets": true,
+      "has_tv": true,
+      "has_wifi": true,
+      "has_heating_system": true,
+      "has_air_conditioner": true,
+      "max_guests": 15,
+      "images": ["place3-1", "place3-2", "place3-3", "place3-4"]
+    },
+    {
+      "_id": "4",
+      "user_id": "5",
+      "name": "Wafer pie",
+      "type": "Room",
+      "description": "Cupcake ipsum I love. Wafer pie gingerbread icing.",
+      "total_rooms": 1,
+      "total_kitchens": 1,
+      "total_bathrooms": 1,
+      "total_beds": 1,
+      "price": 300,
+      "address": {
+        "country": "Egypt",
+        "city": "New Cairo",
+        "zipcode": 11111
+      },
+      "location": {
+        "lat": "30.005493",
+        "lng": "31.477898"
+      },
+      "pets": false,
+      "has_tv": true,
+      "has_wifi": true,
+      "has_heating_system": false,
+      "has_air_conditioner": true,
+      "max_guests": 2,
+      "images": ["place4-1", "place4-2", "place4-3"]
+    },
+    {
+      "_id": "5",
+      "user_id": "1",
+      "name": "Fruitcake",
+      "type": "Apartment",
+      "description": "Cupcake ipsum. Fruitcake tiramisu muffin tiramisu croissant.",
+      "total_rooms": 3,
+      "total_kitchens": 1,
+      "total_bathrooms": 2,
+      "total_beds": 5,
+      "price": 1200,
+      "address": {
+        "country": "Egypt",
+        "city": "Alex",
+        "zipcode": 12552
+      },
+      "location": {
+        "lat": "31.205753",
+        "lng": "29.924526"
+      },
+      "pets": true,
+      "has_tv": true,
+      "has_wifi": true,
+      "has_heating_system": true,
+      "has_air_conditioner": true,
+      "max_guests": 6,
+      "images": ["place5-1", "place5-2", "place5-3"]
+    }
+  ],
+
+  "reservations": [
+    {
+      "_id": "1",
+      "user_id": "3",
+      "place_id": "4",
+      "start_date": "20/02/2021",
+      "end_date": "27/02/2021",
+      "price_per_night": 300,
+      "total_nights": 7,
+      "created_at": "20/12/2020",
+      "num_of_guests": 3
+    },
+    {
+      "_id": "2",
+      "user_id": "2",
+      "place_id": "3",
+      "start_date": "02/02/2021",
+      "end_date": "04/02/2021",
+      "price_per_night": 200,
+      "total_nights": 2,
+      "created_at": "25/12/2020",
+      "num_of_guests": 2
+    },
+    {
+      "_id": "3",
+      "user_id": "5",
+      "place_id": "1",
+      "start_date": "01/03/2021",
+      "end_date": "05/03/2021",
+      "price_per_night": 250,
+      "total_nights": 5,
+      "created_at": "20/01/2021",
+      "num_of_guests": 4
+    }
+  ],
+
+  "reviews": [
+    {
+      "_id": "1",
+      "user_id": "3",
+      "rating": 4,
+      "comment": "Cupcake ipsum gingerbread apple pie.",
+      "place_id": "2"
+    },
+    {
+      "_id": "2",
+      "user_id": "2",
+      "rating": 5,
+      "comment": "Cupcake ipsum. Sit amet donut soufflé dragée gummies.",
+      "place_id": "1"
+    },
+    {
+      "_id": "3",
+      "user_id": "5",
+      "rating": 5,
+      "comment": "Cupcake ipsum, biscuit chocolate.",
+      "place_id": "3"
+    },
+    {
+      "_id": "4",
+      "user_id": "1",
+      "rating": 3,
+      "comment": "Cupcake ipsum, Cotton candy toffee marshmallow tart.",
+      "place_id": "2"
+    },
+    {
+      "_id": "5",
+      "user_id": "4",
+      "rating": 5,
+      "comment": "Cupcake ipsum, Amet sweet Fruitcake icing jelly-o.",
+      "place_id": "3"
+    },
+    {
+      "_id": "6",
+      "user_id": "1",
+      "rating": 4,
+      "comment": "Cupcake ipsum, I love carrot cake gummi bears.",
+      "place_id": "1"
+    },
+    {
+      "_id": "7",
+      "user_id": "5",
+      "rating": 5,
+      "comment": "Cupcake ipsum Gummies cookie pudding.",
+      "place_id": "4"
+    },
+    {
+      "_id": "8",
+      "user_id": "3",
+      "rating": 4,
+      "comment": "Cupcake ipsum Amet sweet Fruitcake icing jelly-o.",
+      "place_id": "5"
+    }
+  ],
+
+  "wishlists": [
+    {
+      "_id": "1",
+      "user_id": "2",
+      "place_id": "1"
+    },
+    {
+      "_id": "2",
+      "user_id": "3",
+      "place_id": "2"
+    },
+    {
+      "_id": "3",
+      "user_id": "1",
+      "place_id": "2"
+    },
+    {
+      "_id": "4",
+      "user_id": "1",
+      "place_id": "1"
+    },
+    {
+      "_id": "5",
+      "user_id": "2",
+      "place_id": "3"
+    },
+    {
+      "_id": "6",
+      "user_id": "3",
+      "place_id": "3"
+    },
+    {
+      "_id": "7",
+      "user_id": "4",
+      "place_id": "1"
+    },
+    {
+      "_id": "8",
+      "user_id": "5",
+      "place_id": "3"
+    },
+    {
+      "_id": "9",
+      "user_id": "5",
+      "place_id": "1"
+    },
+    {
+      "_id": "10",
+      "user_id": "2",
+      "place_id": "2"
+    }
+  ]
+}
